@@ -1,0 +1,16 @@
+$header-font-size: 6rem;
+
+@mixin row() {
+	width: 1024px;
+	margin: 0 auto 0 auto;
+}
+
+h1 {
+	font-size: $header-font-size;
+	//@include row();
+}
+
+div {
+	font-size: 1.5rem;
+	@include row();
+}
